@@ -7,19 +7,18 @@ body,html{
     background: url(imagens/bodygif.gif)no-repeat;
     background-size: cover;
     color: white;
-    height: 100vh;
-    height: 100%;
-    width: 100vw;
+    min-height: 100vh;
+    min-height: 100%;
 }
 #img1{
     height: 300px;
-    width: 100%;
+    max-width: 100%;
     margin-top: 10px;
 }
 main{
     min-height: 100vh;
-    padding: 6px;
-    width: 450px;
+    min-width: 450px;
+    padding: 6px;   
     margin: auto;
     text-align: center;
 
@@ -42,6 +41,6 @@ h1{
     color: #0A3D62;
 }
 #dancinha{
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
