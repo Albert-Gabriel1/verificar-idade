@@ -2,12 +2,13 @@
     margin: 0px;
     padding: 0px;
 }
-body{
+body,html{
     color: #3D3D3D;
     background: url(imagens/bodygif.gif)no-repeat;
     background-size: cover;
     color: white;
     height: 100vh;
+    height: 100%;
     width: 100vw;
 }
 #img1{
@@ -42,5 +43,5 @@ h1{
 }
 #dancinha{
     width: 100%;
-    height: 300px;
+    height: auto;
 }
