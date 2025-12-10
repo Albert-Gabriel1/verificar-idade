@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verificar idade</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Verificador de idade</h1>
+    <main>
+        <form action="" >
+            <p><label for="idade">Ano de nascimento</label>
+                <input type="date" name="idade" id="idade" required autocomplete="bday-year">
+            </p>
+            <br>
+            <p>Sexo:
+                <input type="radio" name="Sexo" id="M" checked>
+                <label for="M">Masculino </label>
+                <input type="radio" name="Sexo" id="F">
+                <label for="F">Feminino</label>
+            </p>
+            <br>
+            <input type="button" value="Enviar" onclick="clicou()" class="botão">
+            <input type="submit" value="Limpar" class="botão">
+            <div id="caixa1">
+                <div id="resultado"></div>
+                <img src="imagens/images (1).jpeg" alt="" id="img1">
+                <link rel="stylesheet" href="style.css">
+            </div>
+            <script src="js.js"></script>
+            <img src="imagens/dancinha2.gif" alt="" id="dancinha">
+        </form>
+    </main>
+</body>
+</html>
