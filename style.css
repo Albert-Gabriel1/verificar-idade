@@ -4,7 +4,7 @@
 }
 body,html{
     color: #3D3D3D;
-    background: url(imagens/bodygif.gif)no-repeat;
+    background: url(imagens/bodygif.gif)no-repeat center center;
     background-size: cover;
     color: white;
     min-height: 100vh;
